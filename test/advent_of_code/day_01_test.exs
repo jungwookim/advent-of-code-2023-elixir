@@ -3,9 +3,8 @@ defmodule AdventOfCode.Day01Test do
 
   import AdventOfCode.Day01
 
-  @tag :skip
   test "part1" do
-    input = nil
+    input = File.read!("priv/static/advent_of_code/input_01_part1.txt")
     result = part1(input)
 
     assert result
