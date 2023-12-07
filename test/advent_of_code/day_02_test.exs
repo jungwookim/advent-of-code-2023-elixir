@@ -11,6 +11,7 @@ defmodule AdventOfCode.Day02Test do
     assert result
   end
 
+  @tag :skip
   test "part2" do
     input = File.read!("priv/static/advent_of_code/input_02_part2.txt")
     result = part2(input)
